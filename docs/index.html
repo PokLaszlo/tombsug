@@ -1,0 +1,48 @@
+
+<!--
+File: index.html
+Author: Pók László
+Copyright: 2025, Pók László
+Group: I-N
+Date: 2025-06-05
+Github: https://github.com/poklaszlo/
+Licenc: MIT
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rombusz</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">    
+  </head>
+  <body>
+    <div class="container">
+        <h1>Rombusz</h1>
+        <p>A rombuszba írható kör sugara</p>
+        
+        <!-- űrlap -->
+         <form action="">
+          <div>
+            <label for="side" class="form-label">Oldal</label>
+            <input type="number"class="form-control" id="side">
+          </div>
+          <div>
+            <label for="angle" class="form-label">Szög</label>
+            <input type="number"class="form-control" id="angle">
+          </div>
+          <div>
+            <button id="calcButton" class="btn btn-primary mt-3 mb-2">Számít</button>
+          </div>
+          <div>
+            <label for="rad" class="form-label">Sugár</label>
+            <input type="number"class="form-control" id="rad" readonly>
+          </div>
+         </form>
+
+    </div>
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
