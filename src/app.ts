@@ -13,7 +13,7 @@ doc.calcButton.addEventListener("click",(event)=>{
 function startSolution(){
     const side = Number(doc.sideInput.value)
     const angle = Number(doc.angleInput.value)
-    const rad = Math.round(calcRadius(side,angle))
+    const rad = Math.round(calcRadius(side,angle)*100)/100
     doc.radiusInput.value= String(rad)
 }
 
